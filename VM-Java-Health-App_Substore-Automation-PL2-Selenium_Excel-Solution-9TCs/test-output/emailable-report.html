@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">8</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">32,491</td><td>sanity</td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testcases.substore_testcase</td><td><a href="#m0">takingScreenshotOfCurrentPage</a></td><td rowspan="1">1757737773311</td><td rowspan="1">245</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="8">testcases.substore_testcase</td><td><a href="#m1">verifyAllSubstoreModulesAreDisplayedInSublist</a></td><td rowspan="1">1757737771799</td><td rowspan="1">363</td></tr><tr class="passedeven"><td><a href="#m2">verifyCreateRequisitionButton</a></td><td rowspan="1">1757737781103</td><td rowspan="1">3703</td></tr><tr class="passedeven"><td><a href="#m3">verifyInventoryRequisitionSection</a></td><td rowspan="1">1757737773559</td><td rowspan="1">7538</td></tr><tr class="passedeven"><td><a href="#m4">verifyNavigationBetweenSubmodules</a></td><td rowspan="1">1757737772165</td><td rowspan="1">1142</td></tr><tr class="passedeven"><td><a href="#m5">verifySubstoreCounterSubModule</a></td><td rowspan="1">1757737761017</td><td rowspan="1">7811</td></tr><tr class="passedeven"><td><a href="#m6">verifySubstoreModule</a></td><td rowspan="1">1757737769781</td><td rowspan="1">576</td></tr><tr class="passedeven"><td><a href="#m7">verifySubstoreSubModule</a></td><td rowspan="1">1757737770361</td><td rowspan="1">1433</td></tr><tr class="passedeven"><td><a href="#m8">verifySubstoreSubModules</a></td><td rowspan="1">1757737768835</td><td rowspan="1">942</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">testcases.substore_testcase#takingScreenshotOfCurrentPage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Exception: java.io.FileNotFoundException: D:\practice\VM-Java-Health-App_Substore-Automation-PL2-Selenium_Excel-Solution-9TCs\Screenshots\SubStore13092025095933.png (The system cannot find the path specified)
+	at coreUtilities.utils.CommonEvents.takeScreenshot(CommonEvents.java:3151)
+	at pages.substore_page.takingScreenshotOfTheCurrentPage(substore_page.java:501)
+	at testcases.substore_testcase.takingScreenshotOfCurrentPage(substore_testcase.java:134)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.io.FileNotFoundException: D:\practice\VM-Java-Health-App_Substore-Automation-PL2-Selenium_Excel-Solution-9TCs\Screenshots\SubStore13092025095933.png (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:230)
+	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:179)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:131)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:110)
+	at coreUtilities.utils.CommonEvents.takeScreenshot(CommonEvents.java:3147)
+	... 15 more
+... Removed 10 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testcases.substore_testcase#verifyAllSubstoreModulesAreDisplayedInSublist</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testcases.substore_testcase#verifyCreateRequisitionButton</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testcases.substore_testcase#verifyInventoryRequisitionSection</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testcases.substore_testcase#verifyNavigationBetweenSubmodules</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testcases.substore_testcase#verifySubstoreCounterSubModule</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">testcases.substore_testcase#verifySubstoreModule</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">testcases.substore_testcase#verifySubstoreSubModule</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">testcases.substore_testcase#verifySubstoreSubModules</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
