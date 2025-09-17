@@ -3,13 +3,18 @@ package pages;
 
 //this one
 import java.util.Map;
+import java.io.File;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Arrays;
 import java.util.List;
+
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -19,7 +24,7 @@ public class substore_page extends StartupPage {
 
 	//TC-1 Locators
 		public By getUsernameTextfieldLocator = By.id("username_id");
-		public By getPasswordTextboxLocator = By.xpath("//input[@id='password']");
+		public By getPasswordTextboxLocator = By.id("password");
 		public By getSignInButtonLocator = By.xpath("//button[@id='login']");
 		public By getDropDownLocater = By.xpath("//a[@href='#/WardSupply']");
 //		TC-2 Locators
@@ -496,16 +501,28 @@ public class substore_page extends StartupPage {
 	 */
 
 	public Boolean takingScreenshotOfTheCurrentPage() throws Exception {
-		boolean isDisplayed = false;
-		try {
-			commonEvents.takeScreenshot("SubStore");
-			isDisplayed = true;
+	    boolean isDisplayed = false;
+	    try {
+	        // Take screenshot
+	        File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 
-		} catch (Exception e) {
-			throw e;
-		}
-		return isDisplayed;
+	        // Build destination path
+	        String destPath = System.getProperty("user.dir") 
+	                + "/src/test/resources/ScreenShots/SubStore.png";
+
+	        File dest = new File(destPath);
+	        dest.getParentFile().mkdirs(); // create folder if not exists
+	        FileUtils.copyFile(src, dest);
+
+	        System.out.println("📸 Screenshot saved at: " + destPath);
+	        isDisplayed = true;
+	    } catch (Exception e) {
+	        e.printStackTrace();
+	        throw e;
+	    }
+	    return isDisplayed;
 	}
+
 
 	/**
 	 * @Test Case 8: Verify the visibility of UI components on the Inventory Requisition page

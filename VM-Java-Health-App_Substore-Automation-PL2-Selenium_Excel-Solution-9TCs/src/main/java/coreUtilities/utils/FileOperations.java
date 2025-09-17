@@ -79,7 +79,9 @@ public class FileOperations
 	        case NUMERIC:
 	            if (DateUtil.isCellDateFormatted(cell)) {
 	                return cell.getDateCellValue().toString();
-	            } else {
+	            }
+	            else 
+	            {
 	                return String.valueOf((int)cell.getNumericCellValue());
 	            }
 	        case BOOLEAN:

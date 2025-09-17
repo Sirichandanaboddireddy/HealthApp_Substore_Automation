@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-13T09:59:13 IST" name="Suite" finished-at="2025-09-13T09:59:45 IST" duration-ms="32491">
+  <suite started-at="2025-09-17T15:45:59 IST" name="Suite" finished-at="2025-09-17T15:46:33 IST" duration-ms="33728">
     <groups>
       <group name="sanity">
-        <method signature="substore_testcase.verifySubstoreCounterSubModule()[pri:1, instance:testcases.substore_testcase@5b202a3a]" name="verifySubstoreCounterSubModule" class="testcases.substore_testcase"/>
-        <method signature="substore_testcase.verifySubstoreSubModules()[pri:2, instance:testcases.substore_testcase@5b202a3a]" name="verifySubstoreSubModules" class="testcases.substore_testcase"/>
-        <method signature="substore_testcase.verifySubstoreModule()[pri:3, instance:testcases.substore_testcase@5b202a3a]" name="verifySubstoreModule" class="testcases.substore_testcase"/>
-        <method signature="substore_testcase.verifySubstoreSubModule()[pri:4, instance:testcases.substore_testcase@5b202a3a]" name="verifySubstoreSubModule" class="testcases.substore_testcase"/>
-        <method signature="substore_testcase.verifyAllSubstoreModulesAreDisplayedInSublist()[pri:5, instance:testcases.substore_testcase@5b202a3a]" name="verifyAllSubstoreModulesAreDisplayedInSublist" class="testcases.substore_testcase"/>
-        <method signature="substore_testcase.verifyNavigationBetweenSubmodules()[pri:6, instance:testcases.substore_testcase@5b202a3a]" name="verifyNavigationBetweenSubmodules" class="testcases.substore_testcase"/>
-        <method signature="substore_testcase.takingScreenshotOfCurrentPage()[pri:7, instance:testcases.substore_testcase@5b202a3a]" name="takingScreenshotOfCurrentPage" class="testcases.substore_testcase"/>
-        <method signature="substore_testcase.verifyInventoryRequisitionSection()[pri:8, instance:testcases.substore_testcase@5b202a3a]" name="verifyInventoryRequisitionSection" class="testcases.substore_testcase"/>
-        <method signature="substore_testcase.verifyCreateRequisitionButton()[pri:9, instance:testcases.substore_testcase@5b202a3a]" name="verifyCreateRequisitionButton" class="testcases.substore_testcase"/>
+        <method signature="substore_testcase.verifySubstoreCounterSubModule()[pri:1, instance:testcases.substore_testcase@2cc44ad]" name="verifySubstoreCounterSubModule" class="testcases.substore_testcase"/>
+        <method signature="substore_testcase.verifySubstoreSubModules()[pri:2, instance:testcases.substore_testcase@2cc44ad]" name="verifySubstoreSubModules" class="testcases.substore_testcase"/>
+        <method signature="substore_testcase.verifySubstoreModule()[pri:3, instance:testcases.substore_testcase@2cc44ad]" name="verifySubstoreModule" class="testcases.substore_testcase"/>
+        <method signature="substore_testcase.verifySubstoreSubModule()[pri:4, instance:testcases.substore_testcase@2cc44ad]" name="verifySubstoreSubModule" class="testcases.substore_testcase"/>
+        <method signature="substore_testcase.verifyAllSubstoreModulesAreDisplayedInSublist()[pri:5, instance:testcases.substore_testcase@2cc44ad]" name="verifyAllSubstoreModulesAreDisplayedInSublist" class="testcases.substore_testcase"/>
+        <method signature="substore_testcase.verifyNavigationBetweenSubmodules()[pri:6, instance:testcases.substore_testcase@2cc44ad]" name="verifyNavigationBetweenSubmodules" class="testcases.substore_testcase"/>
+        <method signature="substore_testcase.takingScreenshotOfCurrentPage()[pri:7, instance:testcases.substore_testcase@2cc44ad]" name="takingScreenshotOfCurrentPage" class="testcases.substore_testcase"/>
+        <method signature="substore_testcase.verifyInventoryRequisitionSection()[pri:8, instance:testcases.substore_testcase@2cc44ad]" name="verifyInventoryRequisitionSection" class="testcases.substore_testcase"/>
+        <method signature="substore_testcase.verifyCreateRequisitionButton()[pri:9, instance:testcases.substore_testcase@2cc44ad]" name="verifyCreateRequisitionButton" class="testcases.substore_testcase"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2025-09-13T09:59:13 IST" name="Test" finished-at="2025-09-13T09:59:45 IST" duration-ms="32491">
+    <test started-at="2025-09-17T15:45:59 IST" name="Test" finished-at="2025-09-17T15:46:33 IST" duration-ms="33728">
       <class name="testcases.substore_testcase">
-        <test-method is-config="true" signature="initBrowser(java.lang.String,java.lang.String)[pri:0, instance:testcases.substore_testcase@5b202a3a]" started-at="2025-09-13T09:59:13 IST" name="initBrowser" finished-at="2025-09-13T09:59:21 IST" duration-ms="7857" status="PASS">
+        <test-method is-config="true" signature="initBrowser(java.lang.String,java.lang.String)[pri:0, instance:testcases.substore_testcase@2cc44ad]" started-at="2025-09-17T15:45:59 IST" name="initBrowser" finished-at="2025-09-17T15:46:06 IST" duration-ms="6459" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -34,27 +34,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initBrowser -->
-        <test-method signature="verifySubstoreCounterSubModule()[pri:1, instance:testcases.substore_testcase@5b202a3a]" started-at="2025-09-13T09:59:21 IST" name="verifySubstoreCounterSubModule" description="Precondition: User should be logged in and on the healthapp section
+        <test-method signature="verifySubstoreCounterSubModule()[pri:1, instance:testcases.substore_testcase@2cc44ad]" started-at="2025-09-17T15:46:06 IST" name="verifySubstoreCounterSubModule" description="Precondition: User should be logged in and on the healthapp section
 1. Login in the healthapp application
 2. Scroll down menu till Substore
-3. Click on the Substore4. SubStore module should be present" finished-at="2025-09-13T09:59:28 IST" duration-ms="7811" status="PASS">
+3. Click on the Substore4. SubStore module should be present" finished-at="2025-09-17T15:46:16 IST" duration-ms="10528" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySubstoreCounterSubModule -->
-        <test-method signature="verifySubstoreSubModules()[pri:2, instance:testcases.substore_testcase@5b202a3a]" started-at="2025-09-13T09:59:28 IST" name="verifySubstoreSubModules" description="1. Login in the healthapp application
+        <test-method signature="verifySubstoreSubModules()[pri:2, instance:testcases.substore_testcase@2cc44ad]" started-at="2025-09-17T15:46:16 IST" name="verifySubstoreSubModules" description="1. Login in the healthapp application
 2. Click on the substore 
 3. &quot;Select your Substore&quot; pop up 4. Expected value that should be present in &quot;Select your Substore&quot; modal
-Expected sub-modals button:  Accounts,male ward SubStore,SubStore1,SubStore1" finished-at="2025-09-13T09:59:29 IST" duration-ms="942" status="PASS">
+Expected sub-modals button:  Accounts,male ward SubStore,SubStore1,SubStore1" finished-at="2025-09-17T15:46:17 IST" duration-ms="797" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySubstoreSubModules -->
-        <test-method signature="verifySubstoreModule()[pri:3, instance:testcases.substore_testcase@5b202a3a]" started-at="2025-09-13T09:59:29 IST" name="verifySubstoreModule" description="Precondition: User should be logged in and on the Verification section\n&quot;
+        <test-method signature="verifySubstoreModule()[pri:3, instance:testcases.substore_testcase@2cc44ad]" started-at="2025-09-17T15:46:17 IST" name="verifySubstoreModule" description="Precondition: User should be logged in and on the Verification section\n&quot;
 	+ &quot;1. Click on the Inventory Module
-	+ &quot;2. Hover over on module signout button and get text3. Verify text To change, you can always click here." finished-at="2025-09-13T09:59:30 IST" duration-ms="576" status="PASS">
+	+ &quot;2. Hover over on module signout button and get text3. Verify text To change, you can always click here." finished-at="2025-09-17T15:46:18 IST" duration-ms="633" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySubstoreModule -->
-        <test-method signature="verifySubstoreSubModule()[pri:4, instance:testcases.substore_testcase@5b202a3a]" started-at="2025-09-13T09:59:30 IST" name="verifySubstoreSubModule" description="Pre condition: User should be logged in and it is on SubStore module
+        <test-method signature="verifySubstoreSubModule()[pri:4, instance:testcases.substore_testcase@2cc44ad]" started-at="2025-09-17T15:46:18 IST" name="verifySubstoreSubModule" description="Pre condition: User should be logged in and it is on SubStore module
 1. Login in the healthapp application
 2. Click on the Substore
 3. &quot;Select your Substore&quot; pop up 
@@ -62,68 +62,34 @@ Expected sub-modals button:  Accounts,male ward SubStore,SubStore1,SubStore1" fi
 5. Click on the &quot;Inventory&quot; sub-module
 6. Click on&quot; Pharmacy&quot; sub-module
 7. All sub-modules should be displayed correctly.
-8. Expected Sub modules are : Pharmacy, Inventory" finished-at="2025-09-13T09:59:31 IST" duration-ms="1433" status="PASS">
+8. Expected Sub modules are : Pharmacy, Inventory" finished-at="2025-09-17T15:46:19 IST" duration-ms="1557" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySubstoreSubModule -->
-        <test-method signature="verifyAllSubstoreModulesAreDisplayedInSublist()[pri:5, instance:testcases.substore_testcase@5b202a3a]" started-at="2025-09-13T09:59:31 IST" name="verifyAllSubstoreModulesAreDisplayedInSublist" description="Pre condition: User should be logged in and it is on SubStore module
+        <test-method signature="verifyAllSubstoreModulesAreDisplayedInSublist()[pri:5, instance:testcases.substore_testcase@2cc44ad]" started-at="2025-09-17T15:46:19 IST" name="verifyAllSubstoreModulesAreDisplayedInSublist" description="Pre condition: User should be logged in and it is on SubStore module
 1. Click on the SubStore Module drop-down arrow   
-2. Click on Inventory module. Expected Sub modules are : Stock, Inventory Requisition, Consumption, Reports, Patient Consumption,Return" finished-at="2025-09-13T09:59:32 IST" duration-ms="363" status="PASS">
+2. Click on Inventory module. Expected Sub modules are : Stock, Inventory Requisition, Consumption, Reports, Patient Consumption,Return" finished-at="2025-09-17T15:46:19 IST" duration-ms="337" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAllSubstoreModulesAreDisplayedInSublist -->
-        <test-method signature="verifyNavigationBetweenSubmodules()[pri:6, instance:testcases.substore_testcase@5b202a3a]" started-at="2025-09-13T09:59:32 IST" name="verifyNavigationBetweenSubmodules" description="Pre condition: User should be logged in 
-1. Click on the Substore Module drop-down arrow2. Verify navigation between sub-modules" finished-at="2025-09-13T09:59:33 IST" duration-ms="1142" status="PASS">
+        <test-method signature="verifyNavigationBetweenSubmodules()[pri:6, instance:testcases.substore_testcase@2cc44ad]" started-at="2025-09-17T15:46:19 IST" name="verifyNavigationBetweenSubmodules" description="Pre condition: User should be logged in 
+1. Click on the Substore Module drop-down arrow2. Verify navigation between sub-modules" finished-at="2025-09-17T15:46:21 IST" duration-ms="1101" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNavigationBetweenSubmodules -->
-        <test-method signature="takingScreenshotOfCurrentPage()[pri:7, instance:testcases.substore_testcase@5b202a3a]" started-at="2025-09-13T09:59:33 IST" name="takingScreenshotOfCurrentPage" description="Under Substore module &gt; INventory Section&quot;
-			+ &quot;Take the screenshot of the current page" finished-at="2025-09-13T09:59:33 IST" duration-ms="245" status="FAIL">
-          <exception class="java.lang.Exception">
-            <message>
-              <![CDATA[java.io.FileNotFoundException: D:\practice\VM-Java-Health-App_Substore-Automation-PL2-Selenium_Excel-Solution-9TCs\Screenshots\SubStore13092025095933.png (The system cannot find the path specified)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Exception: java.io.FileNotFoundException: D:\practice\VM-Java-Health-App_Substore-Automation-PL2-Selenium_Excel-Solution-9TCs\Screenshots\SubStore13092025095933.png (The system cannot find the path specified)
-at coreUtilities.utils.CommonEvents.takeScreenshot(CommonEvents.java:3151)
-at pages.substore_page.takingScreenshotOfTheCurrentPage(substore_page.java:501)
-at testcases.substore_testcase.takingScreenshotOfCurrentPage(substore_testcase.java:134)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: java.io.FileNotFoundException: D:\practice\VM-Java-Health-App_Substore-Automation-PL2-Selenium_Excel-Solution-9TCs\Screenshots\SubStore13092025095933.png (The system cannot find the path specified)
-at java.base/java.io.FileOutputStream.open0(Native Method)
-at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
-at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
-at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:179)
-at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:131)
-at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:110)
-at coreUtilities.utils.CommonEvents.takeScreenshot(CommonEvents.java:3147)
-... 15 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Exception -->
+        <test-method signature="takingScreenshotOfCurrentPage()[pri:7, instance:testcases.substore_testcase@2cc44ad]" started-at="2025-09-17T15:46:21 IST" name="takingScreenshotOfCurrentPage" description="Under Substore module &gt; INventory Section&quot;
+			+ &quot;Take the screenshot of the current page" finished-at="2025-09-17T15:46:21 IST" duration-ms="264" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takingScreenshotOfCurrentPage -->
-        <test-method signature="verifyInventoryRequisitionSection()[pri:8, instance:testcases.substore_testcase@5b202a3a]" started-at="2025-09-13T09:59:33 IST" name="verifyInventoryRequisitionSection" description="Pre condition: User should be logged in and it is on SubStore module
+        <test-method signature="verifyInventoryRequisitionSection()[pri:8, instance:testcases.substore_testcase@2cc44ad]" started-at="2025-09-17T15:46:21 IST" name="verifyInventoryRequisitionSection" description="Pre condition: User should be logged in and it is on SubStore module
 1. Click on the SubStore module drop-down arrow 
 2. Click on Inventory sub-module
-3. Click on Inventory Requisition section" finished-at="2025-09-13T09:59:41 IST" duration-ms="7538" status="PASS">
+3. Click on Inventory Requisition section" finished-at="2025-09-17T15:46:29 IST" duration-ms="7736" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyInventoryRequisitionSection -->
-        <test-method signature="verifyCreateRequisitionButton()[pri:9, instance:testcases.substore_testcase@5b202a3a]" started-at="2025-09-13T09:59:41 IST" name="verifyCreateRequisitionButton" description="Pre condition: User should be logged in and it is on Inventory sub-module
+        <test-method signature="verifyCreateRequisitionButton()[pri:9, instance:testcases.substore_testcase@2cc44ad]" started-at="2025-09-17T15:46:29 IST" name="verifyCreateRequisitionButton" description="Pre condition: User should be logged in and it is on Inventory sub-module
 1. Click on &quot;Inventory Requisition&quot; section
 2. Click on &quot;Create Requisition&quot; button
 3. Click on &quot;Target Inventory &quot; field and Select &quot;GENERAL-INVENTORY&quot; option
@@ -132,11 +98,11 @@ at coreUtilities.utils.CommonEvents.takeScreenshot(CommonEvents.java:3147)
 6. Enter the &quot;Required Quantity&quot; field 
 7. Click on &quot;Request&quot; button
 8. Click on &quot;Close&quot; icon
-9. Verify popup message Requisition is Generated and Saved" finished-at="2025-09-13T09:59:44 IST" duration-ms="3703" status="PASS">
+9. Verify popup message Requisition is Generated and Saved" finished-at="2025-09-17T15:46:32 IST" duration-ms="3652" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCreateRequisitionButton -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.substore_testcase@5b202a3a]" started-at="2025-09-13T09:59:44 IST" name="tearDown" finished-at="2025-09-13T09:59:45 IST" duration-ms="806" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.substore_testcase@2cc44ad]" started-at="2025-09-17T15:46:32 IST" name="tearDown" finished-at="2025-09-17T15:46:33 IST" duration-ms="580" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

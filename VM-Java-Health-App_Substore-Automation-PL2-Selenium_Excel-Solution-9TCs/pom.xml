@@ -79,10 +79,11 @@
 
         <!-- Extent Reports (latest) -->
         <dependency>
-            <groupId>com.aventstack</groupId>
-            <artifactId>extentreports</artifactId>
-            <version>5.1.1</version>
-        </dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>4.1.7</version>
+</dependency>
+
 
         <!-- Shutterbug -->
         <dependency>
